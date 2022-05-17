@@ -1,0 +1,15 @@
+data_dir: /home/wangsteven/00_repos/08_bev_gt/data-dair-i/single-infrastructure-side-example
+grnd_pcd: /home/wangsteven/00_repos/08_bev_gt/bev-dataset-devkit/maps_data/ground_YiZhuang11North151.pcd
+save_dir: /home/wangsteven/00_repos/08_bev_gt/bev-dataset-devkit/dair_bev
+
+map_config:
+  resolution: 0.2
+  extents:
+    top: 80
+    bottom: 0
+    left: 30
+    right: -30
+
+img:
+  width: 1920
+  height: 1080
